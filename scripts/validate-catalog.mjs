@@ -18,10 +18,19 @@ for (const [index, game] of (catalog.games ?? []).entries()) {
     failures.push(`${at}: vimmUrl must be a verified individual Vault URL`);
   }
   if (game.linkStatus !== "verified") failures.push(`${at}: published games must have linkStatus=verified`);
-  if (game.download?.authorized !== true && (game.download?.uris?.length ?? 0) > 0) {
-    failures.push(`${at}: unauthorized download entries must not contain URIs`);
+
+  if (game.download === "[BRANCO]") {
+    if (game.availability?.downloadAvailable !== false || game.availability?.authorizedDownload !== false) {
+      failures.push(`${at}: [BRANCO] entries must explicitly disable download availability and authorization`);
+    }
+  } else {
+    if (game.download?.authorized !== true && (game.download?.uris?.length ?? 0) > 0) {
+      failures.push(`${at}: unauthorized download entries must not contain URIs`);
+    }
+    if (game.download?.authorized !== true || !Array.isArray(game.download?.uris) || game.download.uris.length === 0) {
+      failures.push(`${at}: download must be [BRANCO] or contain authorized URIs`);
+    }
   }
-  if (!Array.isArray(game.download?.uris)) failures.push(`${at}: download.uris must be an array`);
 }
 
 const pending = JSON.parse(await readFile(new URL("../catalog/pending/ps1.json", import.meta.url), "utf8"));
