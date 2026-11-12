@@ -4,129 +4,60 @@
   "title": "VimmVault game catalog entry",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "id",
-    "title",
-    "platform",
-    "vimmUrl",
-    "linkStatus",
-    "download"
-  ],
+  "required": ["id", "title", "platform", "vimmUrl", "linkStatus", "download"],
   "properties": {
-    "id": {
-      "type": "string",
-      "minLength": 1,
-      "pattern": "^[a-z0-9][a-z0-9._:-]*$"
-    },
-    "title": {
-      "type": "string",
-      "minLength": 1
-    },
-    "platform": {
-      "type": "string",
-      "minLength": 1
-    },
-    "region": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "releaseYear": {
-      "type": [
-        "integer",
-        "null"
-      ],
-      "minimum": 1970,
-      "maximum": 2100
-    },
-    "publisher": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "developer": {
-      "type": [
-        "string",
-        "null"
-      ]
-    },
-    "cover": {
-      "type": [
-        "string",
-        "null"
-      ],
-      "format": "uri"
-    },
-    "vimmUrl": {
-      "type": "string",
-      "format": "uri",
-      "pattern": "^https://vimm\\\\.net/vault/[0-9]+$"
-    },
-    "linkStatus": {
-      "const": "verified"
-    },
+    "id": {"type": "string", "minLength": 1, "pattern": "^[a-z0-9][a-z0-9._:-]*$"},
+    "title": {"type": "string", "minLength": 1},
+    "platform": {"type": "string", "minLength": 1},
+    "region": {"type": ["string", "null"]},
+    "releaseYear": {"type": ["integer", "null"], "minimum": 1970, "maximum": 2100},
+    "publisher": {"type": ["string", "null"]},
+    "developer": {"type": ["string", "null"]},
+    "cover": {"type": ["string", "null"], "format": "uri"},
+    "vimmUrl": {"type": "string", "format": "uri", "pattern": "^https://vimm\\.net/vault/[0-9]+$"},
+    "linkStatus": {"const": "verified"},
     "availability": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "catalogued",
-        "downloadAvailable",
-        "authorizedDownload"
-      ],
+      "required": ["catalogued", "downloadAvailable", "authorizedDownload"],
       "properties": {
-        "catalogued": {
-          "const": true
-        },
-        "downloadAvailable": {
-          "type": "boolean"
-        },
-        "authorizedDownload": {
-          "type": "boolean"
-        }
+        "catalogued": {"const": true},
+        "downloadAvailable": {"type": "boolean"},
+        "authorizedDownload": {"type": "boolean"}
       }
     },
     "download": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "authorized",
-        "uris"
-      ],
-      "properties": {
-        "authorized": {
-          "type": "boolean"
-        },
-        "uris": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "format": "uri"
-          }
-        }
-      },
-      "allOf": [
+      "oneOf": [
+        {"const": "[BRANCO]"},
         {
-          "if": {
-            "properties": {
-              "authorized": {
-                "const": false
-              }
-            },
-            "required": [
-              "authorized"
-            ]
-          },
-          "then": {
-            "properties": {
-              "uris": {
-                "maxItems": 0
-              }
-            }
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["authorized", "uris"],
+          "properties": {
+            "authorized": {"const": true},
+            "uris": {"type": "array", "minItems": 1, "items": {"type": "string", "format": "uri"}}
           }
         }
       ]
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"download": {"const": "[BRANCO]"}},
+        "required": ["download"]
+      },
+      "then": {
+        "properties": {
+          "availability": {
+            "properties": {
+              "downloadAvailable": {"const": false},
+              "authorizedDownload": {"const": false}
+            }
+          }
+        },
+        "required": ["availability"]
+      }
+    }
+  ]
 }
