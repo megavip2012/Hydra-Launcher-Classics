@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "description": "Importação de títulos do arquivo legado. Estes registros não fazem parte do catálogo público até que o link individual do Vimm seja confirmado.",
+  "sourceFile": "Vimm_Lair Content",
+  "importedAt": "2026-11-12",
+  "games": [
+    {
+      "id": "legacy-ps1-001",
+      "title": "007 Racing",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-002",
+      "title": "007: The World Is Not Enough",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-003",
+      "title": "007: Tomorrow Never Dies",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-004",
+      "title": "16 Tales 1",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-005",
+      "title": "16 Tales 2",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-006",
+      "title": "16 Tales 3",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-007",
+      "title": "16 Tales 4",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-008",
+      "title": "1Xtreme",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-009",
+      "title": "2002 FIFA World Cup",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-010",
+      "title": "2Xtreme",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-011",
+      "title": "3D Baseball",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-012",
+      "title": "3D Lemmings",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-013",
+      "title": "3Xtreme",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    },
+    {
+      "id": "legacy-ps1-014",
+      "title": "40 Winks",
+      "platform": "ps1",
+      "vimmUrl": null,
+      "linkStatus": "pending_review",
+      "note": "A página individual do The Vault ainda não foi identificada e verificada."
+    }
+  ]
+}
