@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "project": "VimmVault for Hydra",
+  "source": "https://vimm.net/vault",
+  "note": "Official Vimm Vault platform landing pages supplied by the project owner. This manifest records platform references only; it is not a game inventory and does not imply that individual game pages or downloads have been verified.",
+  "platforms": [
+    {
+      "id": "atari-2600",
+      "name": "Atari 2600",
+      "category": "console",
+      "releaseYear": 1977,
+      "vimmUrl": "https://vimm.net/vault/Atari2600",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "atari-5200",
+      "name": "Atari 5200",
+      "category": "console",
+      "releaseYear": 1982,
+      "vimmUrl": "https://vimm.net/vault/Atari5200",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "nes",
+      "name": "Nintendo Entertainment System",
+      "category": "console",
+      "releaseYear": 1983,
+      "vimmUrl": "https://vimm.net/vault/NES",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "master-system",
+      "name": "Master System",
+      "category": "console",
+      "releaseYear": 1985,
+      "vimmUrl": "https://vimm.net/vault/SMS",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "atari-7800",
+      "name": "Atari 7800",
+      "category": "console",
+      "releaseYear": 1986,
+      "vimmUrl": "https://vimm.net/vault/Atari7800",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "turbografx-16",
+      "name": "TurboGrafx-16",
+      "category": "console",
+      "releaseYear": 1987,
+      "vimmUrl": "https://vimm.net/vault/TG16",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "genesis",
+      "name": "Genesis",
+      "category": "console",
+      "releaseYear": 1988,
+      "vimmUrl": "https://vimm.net/vault/Genesis",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "turbografx-cd",
+      "name": "TurboGrafx-CD",
+      "category": "console",
+      "releaseYear": 1988,
+      "vimmUrl": "https://vimm.net/vault/TGCD",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "snes",
+      "name": "Super Nintendo",
+      "category": "console",
+      "releaseYear": 1990,
+      "vimmUrl": "https://vimm.net/vault/SNES",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "cd-i",
+      "name": "CD-i",
+      "category": "console",
+      "releaseYear": 1991,
+      "vimmUrl": "https://vimm.net/vault/CDi",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "sega-cd",
+      "name": "Sega CD",
+      "category": "console",
+      "releaseYear": 1991,
+      "vimmUrl": "https://vimm.net/vault/SegaCD",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "jaguar",
+      "name": "Jaguar",
+      "category": "console",
+      "releaseYear": 1993,
+      "vimmUrl": "https://vimm.net/vault/Jaguar",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "sega-32x",
+      "name": "Sega 32X",
+      "category": "console",
+      "releaseYear": 1994,
+      "vimmUrl": "https://vimm.net/vault/32X",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "category": "console",
+      "releaseYear": 1994,
+      "vimmUrl": "https://vimm.net/vault/Saturn",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation",
+      "category": "console",
+      "releaseYear": 1994,
+      "vimmUrl": "https://vimm.net/vault/PS1",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "jaguar-cd",
+      "name": "Jaguar CD",
+      "category": "console",
+      "releaseYear": 1995,
+      "vimmUrl": "https://vimm.net/vault/JaguarCD",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "nintendo-64",
+      "name": "Nintendo 64",
+      "category": "console",
+      "releaseYear": 1996,
+      "vimmUrl": "https://vimm.net/vault/N64",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "dreamcast",
+      "name": "Dreamcast",
+      "category": "console",
+      "releaseYear": 1998,
+      "vimmUrl": "https://vimm.net/vault/Dreamcast",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "playstation-2",
+      "name": "PlayStation 2",
+      "category": "console",
+      "releaseYear": 2000,
+      "vimmUrl": "https://vimm.net/vault/PS2",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "gamecube",
+      "name": "GameCube",
+      "category": "console",
+      "releaseYear": 2001,
+      "vimmUrl": "https://vimm.net/vault/GameCube",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox",
+      "category": "console",
+      "releaseYear": 2001,
+      "vimmUrl": "https://vimm.net/vault/Xbox",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "xbox-360",
+      "name": "Xbox 360",
+      "category": "console",
+      "releaseYear": 2005,
+      "vimmUrl": "https://vimm.net/vault/Xbox360",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "xbox-360-digital",
+      "name": "Xbox 360 (Digital)",
+      "category": "console",
+      "releaseYear": 2005,
+      "vimmUrl": "https://vimm.net/vault/X360-D",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "playstation-3",
+      "name": "PlayStation 3",
+      "category": "console",
+      "releaseYear": 2006,
+      "vimmUrl": "https://vimm.net/vault/PS3",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "wii",
+      "name": "Wii",
+      "category": "console",
+      "releaseYear": 2006,
+      "vimmUrl": "https://vimm.net/vault/Wii",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "wiiware",
+      "name": "WiiWare",
+      "category": "console",
+      "releaseYear": 2008,
+      "vimmUrl": "https://vimm.net/vault/WiiWare",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "wii-u",
+      "name": "Wii U",
+      "category": "console",
+      "releaseYear": 2012,
+      "vimmUrl": "https://vimm.net/vault/WiiU",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "game-boy",
+      "name": "Game Boy",
+      "category": "handheld",
+      "releaseYear": 1989,
+      "vimmUrl": "https://vimm.net/vault/GB",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "lynx",
+      "name": "Lynx",
+      "category": "handheld",
+      "releaseYear": 1989,
+      "vimmUrl": "https://vimm.net/vault/Lynx",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "game-gear",
+      "name": "Game Gear",
+      "category": "handheld",
+      "releaseYear": 1990,
+      "vimmUrl": "https://vimm.net/vault/GG",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "virtual-boy",
+      "name": "Virtual Boy",
+      "category": "handheld",
+      "releaseYear": 1995,
+      "vimmUrl": "https://vimm.net/vault/VB",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "game-boy-color",
+      "name": "Game Boy Color",
+      "category": "handheld",
+      "releaseYear": 1998,
+      "vimmUrl": "https://vimm.net/vault/GBC",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "game-boy-advance",
+      "name": "Game Boy Advance",
+      "category": "handheld",
+      "releaseYear": 2001,
+      "vimmUrl": "https://vimm.net/vault/GBA",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "nintendo-ds",
+      "name": "Nintendo DS",
+      "category": "handheld",
+      "releaseYear": 2004,
+      "vimmUrl": "https://vimm.net/vault/DS",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "playstation-portable",
+      "name": "PlayStation Portable",
+      "category": "handheld",
+      "releaseYear": 2004,
+      "vimmUrl": "https://vimm.net/vault/PSP",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    },
+    {
+      "id": "nintendo-3ds",
+      "name": "Nintendo 3DS",
+      "category": "handheld",
+      "releaseYear": 2011,
+      "vimmUrl": "https://vimm.net/vault/3DS",
+      "verificationStatus": "provided_by_user",
+      "gameCount": null
+    }
+  ]
+}
